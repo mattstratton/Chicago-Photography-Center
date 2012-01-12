@@ -1,0 +1,44 @@
+Size notes:
+header width:943
+nav div width: 943
+red ribbon div width:1094
+menubar div width:943
+red ribbon image size: 1094x76
+logo size: 369x135
+content width: 883 (30 px left/right border)
+main photo size:550x370
+left column width: 303
+right column width: 550
+location box proportions:
+social box proportions:
+member box proportions:
+free box proportions:
+announcement box width:
+
+current 4093
+ideal 972
+
+x/100 = 927/4093
+reduce image by 23%
+
+NEW DIV LAYOUT
+SITE - entire page (previously "site"). Contains the total content area (not including dot background). Has background element of "/wp-content/themes/cpc-theme/images/site-div-background.png". Will be 1007px wide as that is the image background. left and right auto margin, top and bottom is 0px. background repeat is y.
+	HEADER - includes all elements above the content (including nav). Basically everything in header.php. width is 943
+		DONATEBUTTON - top div for the donate button
+		LOGO - div to control placement of the logo (needed? maybe just on the image? div is probably better)
+		SEARCHBOX - div to control placement of the searchbox
+		NAVMENU - div with the main navigation
+			REDRIBBON - div for the ribbonbar
+			HEADER-NAV (THIS IS A NAV ELEMENT NOT A DIV!)
+	PAGE - this is the div that holds the main content
+		CONTENT-LEFT - left column of content. 303px wide?
+			FADEBOX - div with crazy fading letters (HOMEPAGE ONLY)
+			LOCATION-BOX
+			SOCIAL-BOX
+			MEMBER-BOX
+			FREE-BOX
+		CONTENT-RIGHT - this div is the right column. 550px wide
+			SLIDER - displays the image slider
+			ANNOUNCEMENTS - div with the blog stories of announcements
+	FOOTER - stuff that goes in the bottom. width is 943
+			

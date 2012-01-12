@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: notesblog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-06 12:29+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Martin Anton Mueller <mam@encore.at>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Der Eintrag ist passwortgeschützt. Zum Lesen Passwort eingeben."
+
+#: comments.php:16
+msgid "No comments posted yet"
+msgstr "Bislang keine Kommentare."
+
+#: comments.php:16
+msgid "One single comment"
+msgstr "Ein einziger Kommentar."
+
+#: comments.php:16
+#, php-format
+msgid "% comments"
+msgstr "% Kommentare"
+
+#: comments.php:38
+msgid "Comments are closed."
+msgstr "Kommentare gesperrt."
+
+#: comments.php:48
+msgid "Post a comment"
+msgstr "Kommentar hinzufügen"
+
+#: comments.php:48
+#, php-format
+msgid "Post a comment to %s"
+msgstr "Kommentiere %s"
+
+#: comments.php:55
+msgid "So log in!"
+msgstr "Melde dich an!"
+
+#: comments.php:62
+msgid "Logged in as"
+msgstr "Angemeldet als"
+
+#: comments.php:62
+msgid "Not you?"
+msgstr "Nicht du?"
+
+#: comments.php:62
+msgid "Then please log out!"
+msgstr "Dann meld' dich ab!"
+
+#: comments.php:68
+msgid "Name"
+msgstr "Name"
+
+#: comments.php:68
+msgid "(required)"
+msgstr "(verpflichtend)"
+
+#: comments.php:71
+msgid "Email (never published,"
+msgstr "Email (nie veröffentlicht,"
+
+#: comments.php:71
+msgid "required"
+msgstr "benötigt"
+
+#: comments.php:85
+msgid "Submit Comment"
+msgstr "Kommentieren"
+
+#: footer.php:31
+msgid "Built on"
+msgstr "Aufgebaut auf"
+
+#: footer.php:35
+msgid "That's it - back to the top of page!"
+msgstr "Das war's - zurück zum Seitenanfang!"
+
+#: index.php:8
+msgid "Category"
+msgstr "Kategorie"
+
+#: index.php:14
+msgid "Tag"
+msgstr "Schlagwort"
+
+#: index.php:20
+msgid "Your <strong>search result</strong>"
+msgstr "Dein <strong>Suchergebnis</strong>"
+
+#: index.php:31
+msgid "Back to"
+msgstr "Zurück zu"
+
+#: index.php:34
+#: index.php:44
+#: index.php:50
+msgid "0 <span>comments</span>"
+msgstr "0 <span>Kommentare</span>"
+
+#: index.php:34
+#: index.php:44
+#: index.php:50
+msgid "1 <span>comment</span>"
+msgstr "1 <span>Kommentare</span>"
+
+#: index.php:34
+#: index.php:44
+#: index.php:50
+msgid "% <span>comments</span>"
+msgstr "% <span>Kommentare</span>"
+
+#: index.php:35
+#: index.php:45
+#: index.php:51
+msgid "By"
+msgstr "von"
+
+#: index.php:36
+#: index.php:52
+msgid "Filed in"
+msgstr "Abgelegt unter"
+
+#: index.php:37
+#: index.php:53
+msgid "Tagged with "
+msgstr "Beschlagwortet mit "
+
+#: index.php:38
+#: index.php:54
+msgid "F jS, Y"
+msgstr "j. F Y"
+
+#: index.php:59
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: index.php:61
+msgid "Edit"
+msgstr "Überarbeiten"
+
+#: index.php:61
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: index.php:70
+msgid "View previous"
+msgstr "Vorherige"
+
+#: index.php:71
+msgid "View next"
+msgstr "Nächste"
+
+#: index.php:76
+msgid "Read previous entries"
+msgstr "Frühere Einträge"
+
+#: index.php:77
+msgid "Read more recent entries"
+msgstr "Aktuellere Einträge"
+
+#: page-archives.php:17
+msgid "Browse by Month:"
+msgstr "Nach Monat durchsuchen:"
+
+#: page-archives.php:22
+msgid "Browse by Category:"
+msgstr "Nach Kategorie durchsuchen:"
+
+#: page-archives.php:27
+msgid "Browse by Tag:"
+msgstr "Nach Schlagwort durchsuchen:"
+
+#: searchform.php:3
+#: sidebar.php:5
+msgid "Search"
+msgstr "Suche"
+
+#: sidebar.php:9
+msgid "Tag Cloud"
+msgstr "Schlagwortwolke"
+
+#: sidebar.php:12
+msgid "Categories"
+msgstr "Kategorien"
+
+#: sidebar.php:13
+msgid "Pages"
+msgstr "Seiten"
+

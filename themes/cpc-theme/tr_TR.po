@@ -1,0 +1,201 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: notesblog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-08-06 12:29+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Thundra <jselivingston@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Bu yazı parola korumalıdır. Yorumları görüntülemek için parolayı yazın."
+
+#: comments.php:16
+msgid "No comments posted yet"
+msgstr "Hiç yorum gönderilmemiş"
+
+#: comments.php:16
+msgid "One single comment"
+msgstr "Tek yorum"
+
+#: comments.php:16
+#, php-format
+msgid "% comments"
+msgstr "% Yorum"
+
+#: comments.php:38
+msgid "Comments are closed."
+msgstr "Yeni yorumlara kapalıdır."
+
+#: comments.php:48
+msgid "Post a comment"
+msgstr "Yorum Gönder"
+
+#: comments.php:48
+#, php-format
+msgid "Post a comment to %s"
+msgstr "%s 'a cevap yaz"
+
+#: comments.php:55
+msgid "So log in!"
+msgstr "O zaman giriş yapın!"
+
+#: comments.php:62
+msgid "Logged in as"
+msgstr "Giriş Yapılan Hesap"
+
+#: comments.php:62
+msgid "Not you?"
+msgstr "Siz değil misiniz?"
+
+#: comments.php:62
+msgid "Then please log out!"
+msgstr "O zaman çıkış yapın!"
+
+#: comments.php:68
+msgid "Name"
+msgstr "Ad"
+
+#: comments.php:68
+msgid "(required)"
+msgstr "(gerekli)"
+
+#: comments.php:71
+msgid "Email (never published,"
+msgstr "E-Mail (yayımlanmayacak,"
+
+#: comments.php:71
+msgid "required"
+msgstr "gerekli"
+
+#: comments.php:85
+msgid "Submit Comment"
+msgstr "Yorumu Gönder"
+
+#: footer.php:31
+msgid "Built on"
+msgstr "Tasarım"
+
+#: footer.php:35
+msgid "That's it - back to the top of page!"
+msgstr "Sayfa tamamlandı, başlangca git!"
+
+#: index.php:8
+msgid "Category"
+msgstr "Kategori"
+
+#: index.php:14
+msgid "Tag"
+msgstr "Etiket"
+
+#: index.php:20
+msgid "Your <strong>search result</strong>"
+msgstr "<strong>Arama Sonuçları</strong>"
+
+#: index.php:31
+msgid "Back to"
+msgstr "Geri"
+
+#: index.php:34
+#: index.php:44
+#: index.php:50
+msgid "0 <span>comments</span>"
+msgstr "0 <span>Yorum</span>"
+
+#: index.php:34
+#: index.php:44
+#: index.php:50
+msgid "1 <span>comment</span>"
+msgstr "1 <span>Yorum</span>"
+
+#: index.php:34
+#: index.php:44
+#: index.php:50
+msgid "% <span>comments</span>"
+msgstr "% <span>Yorum</span>"
+
+#: index.php:35
+#: index.php:45
+#: index.php:51
+msgid "By"
+msgstr "Yazar"
+
+#: index.php:36
+#: index.php:52
+msgid "Filed in"
+msgstr "Kategori"
+
+#: index.php:37
+#: index.php:53
+msgid "Tagged with "
+msgstr "Etiket"
+
+#: index.php:38
+#: index.php:54
+msgid "F jS, Y"
+msgstr "j F Y"
+
+#: index.php:59
+msgid "Read more"
+msgstr "Devam Et"
+
+#: index.php:61
+msgid "Edit"
+msgstr "Düzenle"
+
+#: index.php:61
+msgid "Pages:"
+msgstr "Sayfalar:"
+
+#: index.php:70
+msgid "View previous"
+msgstr "Önceki"
+
+#: index.php:71
+msgid "View next"
+msgstr "Sonraki"
+
+#: index.php:76
+msgid "Read previous entries"
+msgstr "Önceki yazıları oku"
+
+#: index.php:77
+msgid "Read more recent entries"
+msgstr "Önceki yazıları okumaya devam et"
+
+#: page-archives.php:17
+msgid "Browse by Month:"
+msgstr "Aylık Arşiv"
+
+#: page-archives.php:22
+msgid "Browse by Category:"
+msgstr "Kategori Arşivi"
+
+#: page-archives.php:27
+msgid "Browse by Tag:"
+msgstr "Etiket Arşivi"
+
+#: searchform.php:3
+#: sidebar.php:5
+msgid "Search"
+msgstr "Ara"
+
+#: sidebar.php:9
+msgid "Tag Cloud"
+msgstr "Etiketler"
+
+#: sidebar.php:12
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: sidebar.php:13
+msgid "Pages"
+msgstr "Sayfalar"
+

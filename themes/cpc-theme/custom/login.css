@@ -1,0 +1,2 @@
+div#login p label { font-family: Georgia, Garamond, serif; font-size: 18px;}
+div#login p#nav label, div#login p.forgetmenot label { font-size: 12px; }

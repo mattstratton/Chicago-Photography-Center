@@ -1,0 +1,730 @@
+/*  
+Theme Name: Chicago Photography Center
+Theme URI: http://cpc.mattstratton.com
+Description: This theme is built for the Chicago Photography Center. It is based upon Notes Blog Core
+Version: 1.0.1
+Tags: light, two-columns, right-sidebar, fixed-width, threaded-comments, sticky-post, translation-ready
+Author: Matt Stratton
+Author URI: http://www.mattstratton.com/
+
+	Based upon the Notes Blog Core theme
+	http://notesblog.com
+	
+	Created and managed by Matt Stratton:
+	http://www.mattstratton.com
+
+*/
+
+/* =======
+	RESET
+   ------- */
+
+body, h1, h2, h3, h4, h5, ul#sidebar, ul.widgets, li, ul#sidebar li ul, ol.commentlist, ul.children, ul#footercol li ul,
+div#submenu-nav ul, div#submenu-nav ol, form, img, table
+	{
+	/*
+	margin:0;
+	padding:0;
+	border: 0;
+	*/
+	}
+
+/*	=====
+	SITE ELEMENT
+	----- */
+div#site { 
+	width:1007px; 
+	margin-left:auto; 
+	margin-right:auto;
+	margin-top:0px;
+	margin-bottom:0px;
+	background-image:url('/wp-content/themes/cpc-theme/images/site-div-background.png');
+	background-repeat:repeat-y;
+	overflow:hidden;
+	z-index:300;
+
+}	
+
+div#headerbar {
+	width:984px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	margin-bottom:0px;
+	overflow:hidden;
+}
+
+div.donatebutton { 
+	float:right; 
+	padding: 0px 0; 
+	margin-right:30px;
+	border:0px;
+	
+}
+
+div#searchbox
+	{
+	float:right;
+	margin-top:150px;
+	margin-right:-71px;
+	}
+	
+	
+div#logo
+	{
+	float: left;
+	position:relative;
+	margin-top:30px;
+	margin-left:30px;
+	}
+div#navmenu {
+	/*background-image:url('/wp-content/themes/cpc-theme/images/redribbon.png');*/
+	position:absolute;
+	float: left;
+	width:1094px;
+	margin-left:-55px;
+}
+
+div#ribbonbar
+	{
+	/*position:relative;*/
+	width:1094px;
+	z-index:2;
+	float:left;
+	}
+
+div#page	{
+	width:984px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:80px;
+	margin-bottom:0px;
+	overflow: hidden;
+}	
+	
+div#content-left {
+	float:left;
+	margin-left:30px;
+	width:333px;
+}
+
+div#content-right {
+	position:relative;
+	float: right;
+	width:550px;
+	margin-right:30px;
+}
+
+div#content {
+	position:relative;
+	float: left;
+	width:550px;
+}
+
+div#footer
+	{
+	width: 984px;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	}
+
+div#fadebox	{
+	width:303px;
+	height:344px;
+	<!--line-height:8em;-->
+	position:relative;
+	float:left;
+	font-family: museo-slab,serif; 
+	font-size:2.5em; 
+	font-weight:100;
+	letter-spacing:7px;
+}	
+
+div#leftbar { 
+	float:left;
+	width:333px;
+	height: 525px;
+}
+div#location-box { 
+	background-color: #535255; 
+	padding: 20px; 
+	margin-bottom: 10px;
+	margin-top:5px;
+	font-size: 16px; 
+	color: #ffffff;
+	line-height:150%;
+	font-family: museo-slab,serif;
+	font-weight:900;
+	text-align:left;
+}
+
+div#location-box a:link, div#location-box a:active,  div#location-box a:visited	{
+	color:#000;
+}
+
+div#social-box { 
+	background-color: #9d022e; 
+	padding: 10px; 
+	margin-top: 5px;
+	margin-bottom: 10px;
+	text-align:left;
+}
+
+div#social-box a:link, div#social-box a:active,  div#social-box a:visited	{
+	color:#000;
+}
+
+div#member-box { 
+	background-color: #9d022e; 
+	padding: 10px; 
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 16px; 
+	color: #000000;
+	line-height:150%;
+	font-family: museo-slab,serif;
+	font-weight:900;
+	text-align:left;
+}
+
+div#member-box a:link, div#member-box a:active,  div#member-box a:visited	{
+	color:#000;
+}
+div#free-box { 
+	background-color: #9d022e; 
+	padding: 10px; 
+	margin-top: 5px;
+	font-size: 16px; 
+	color: #000000;
+	line-height:150%;
+	font-family: museo-slab,serif;
+	font-weight:900;
+	text-align:left;
+}
+div#free-box a:link, div#free-box a:active,  div#free-box a:visited	{
+	color:#000;
+}
+	
+div#member-box a:link, div#member-box a:active,  div#member-box a:visited	{
+	color:#000;
+}
+div#groupon-box { 
+	background-color: #9d022e; 
+	padding: 10px; 
+	margin-top: 5px;
+	font-size: 16px; 
+	color: #000000;
+	line-height:150%;
+	font-family: museo-slab,serif;
+	font-weight:900;
+	text-align:left;
+}
+div#groupon-box a:link, div#free-box a:active,  div#free-box a:visited	{
+	color:#000;
+}
+/*MOVE THIS hr*/
+hr {
+  height: 5px;
+  color: #000000;
+  background-color: #000000;
+}
+/* ==============
+	JQUERY MENUS
+   -------------- */
+
+nav {	
+/*
+	position:absolute;
+	top:164px;
+	z-index:10;
+	float: left;
+	clear: left;
+	margin-top: 0px;
+	width: 927px;
+	*/
+	position:relative;
+	z-index:10;
+	float:left;
+	margin-left:75px;
+	margin-top:-76px;
+}
+nav ul.sf-menu {
+	padding: 0; margin: 0; /* reset list style */
+	background: #9d022e;/*give your menu a bg colour, if necessary */
+	width: 972px; /* same as header width */
+	text-transform:uppercase;
+	font-weight:300;
+}
+
+/* ==============
+	TYPE & COLOR
+   -------------- */
+
+/* Default font */
+h1, textarea#comment, input#author, input#email, input#url
+	{
+	font-family: proxima-nova,sans-serif;
+	color: #555;
+	}
+
+body {
+
+	background-image:url('/wp-content/themes/cpc-theme/images/background-dots1.png');
+	background-repeat:repeat;
+	text-align:center; 
+	margin-bottom:-20px; 
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	padding:0px;
+	font-family: proxima-nova,sans-serif;
+	color: #555;
+
+  /* adjust width as needed */
+}	
+	
+/* Sans-serifs */
+ul#sidebar, div#footer, div#header h1 span, h2, h3, h4, h5, a.more-link, div.authormeta, div.postmeta, div.commentmeta, 
+div.comment-author, div.comment-meta, p.commentloggedin, div.reply, div.cancel-comment-reply, h1.listhead, 
+div.post ul, div.page ul, div.post ol, div.page ol, div.nav
+	{
+	font-family: proxima-nova,sans-serif;
+	color: #777;
+	}
+
+/* Default font size */
+div#content, textarea#comment, input#author, input#email, input#url
+	{ font-size: 16px; }
+
+/* Medium-small font */
+a.more-link, div.comment-body p
+	{ font-size: 14px; }
+
+/* Small font */
+div#content small, div#copy, div.postmeta, ul#sidebar, div#footer, p.commentloggedin, div.reply, div.feed, div#submenu-nav
+	{ font-size: 12px; }
+
+/* Headers */
+div#content h1, div#content h2, div#content h3, div#content h4, div#content h5
+	{
+	color: #333;
+	margin-bottom: 7px;
+	}
+div#content h1
+	{
+	font-size: 32px;
+	line-height: 42px;
+	letter-spacing: -1px;
+	font-weight: 100;
+	margin-bottom: 7px;
+	padding-bottom: 14px;
+	border: 1px solid #000000;
+	border-width: 0 0 5px 0;
+	text-transform: uppercase;
+	font-family: museo-slab,serif; 
+	}
+	div#content h1.listhead { background: #f8f8f8; margin: 0 10px 20px 10px; padding: 10px 10px 8px 10px !important; font-size: 16px; line-height: 16px; letter-spacing: 0; text-transform: uppercase; color: #777; }
+		div#content h1.listhead strong { color: #333; }
+div#content h2
+	{
+	font-size: 28px;
+	line-height: 28px;
+	}
+	body.single div#content h2, body.page div#content h2 { margin-top: 24px; }
+	body.home div#content h2, body.archive div#content h2, body.search div#content h2, body.error404 div#content h2 { font-family: museo-slab,serif; font-weight:normal; }
+div#content h3
+	{
+	font-size: 18px;
+	line-height: 18px;
+	}
+div#content h4
+	{
+	font-size: 16px;
+	}
+	div#footer h2 { margin-bottom: 7px; }
+div#content h5, ul#sidebar h2, div#footer h2, div.nav
+	{
+	font-size: 12px;
+	text-transform: uppercase;
+	}
+	ul#sidebar h2 { margin-bottom: 7px; padding-bottom: 3px; border: 1px solid #e8e8e8; border-width: 0 0 1px 0; }
+
+/* common type */
+div#content p
+	{
+	line-height: 24px;
+	margin: 0 0 14px 0;
+	}
+	div.comment-body p { line-height: 18px; margin-bottom: 10px !important; }
+	
+
+/* =======
+	LINKS
+   ------- */
+
+/* default */
+a:link, a:active, a:visited
+	{
+	color: #800;
+	text-decoration: none;
+	}
+	a:hover { color: #111; text-decoration: underline; }
+
+div.postmeta span.comments a { font-size:12px; line-height:12px; font-weight:bold; padding: 2px 2px 1px 8px !important; text-transform: uppercase; border: 1px solid #e8e8e8; border-width: 0 0 0 1px; }
+
+h1 a:hover, h2 a:hover
+	{ text-decoration: none; }
+
+h1 a:link, h1 a:active, h1 a:visited
+	{
+	color: #000;
+	padding: 10px 0;
+	border: 5px solid #fff;
+	border-width: 50px 0 0 0;
+	}
+	h1 a:hover { text-decoration:none; color: #800; border-top-color: #800; font-style: italic; }
+
+/* dark grey links */
+ol.commentlist a:link, ol.commentlist a:active, ol.commentlist a:visited,
+div#submenu-nav a:link, div#submenu-nav a:active, div#submenu-nav a:visited
+	{
+	color: #111;
+	text-decoration:underline;
+	}
+	ol.commentlist a:hover, div#submenu-nav a:hover { color: #800; text-decoration: none; }
+
+/* meta */
+div.postmeta a:link, div.postmeta a:active, div.postmeta a:visited, a.more-link
+	{ color: #444; padding: 1px; font-style:normal; font-weight:bold; }
+	div.postmeta a:hover, div.postmeta span.comments a:hover { color: #fff; background: #111; border-color: #000; text-decoration: none; }
+	
+.location-box a:link, div.location-box a:active, div.location-box a:visited
+		{color: #000000;}
+
+
+/* ========
+	LAYOUT
+   -------- */
+
+.left { float:left; }
+.right { float:right; }
+.center { text-align:center; }
+.aligncenter, div.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+div.widecolumn { width: 550px; }
+
+div.column, ul.column, ul#sidebar
+	{ width: 320px; }
+
+
+
+div#wrap
+	{
+	width:927px;
+	margin-top:0px;
+	margin-bottom:0px;
+	margin-left:auto;
+	margin-right:auto;
+
+	}
+div#toplist {
+	/*position:relative; */
+	width: 927px;
+	float:left;
+	/*margin-left:170px;*/
+	}
+
+
+		div#toplist div.feed { float:right; padding: 5px 0; }
+			div#toplist div.feed a { padding: 5px; background: #444; color: #fff; }
+				div#toplist div.feed a:hover { background: #000; }
+		div#toplist { float:right; padding: 0px 0; }
+
+
+
+
+
+
+div#submenu-nav
+	{
+	width:100%;
+	float:left;
+	border: 1px solid #444;
+	border-width: 0 0 1px 1px;
+	border-left: 1px dotted #e8e8e8;
+	}
+	div#submenu-nav ul {}
+		div#submenu-nav ul li { list-style: none; float:left; padding: 8px; border: 1px dotted #e8e8e8; border-width: 0 1px 0 0; }
+
+
+div#blog {
+	width: 927px;
+	margin-left:30px;
+	margin-right:30px;
+	float:left;
+	}
+
+	
+div#content { 
+float:right; 
+margin-top: 20px;
+text-align:left;}
+	div.post, div.page, div.attachment { padding: 10px 20px 0 20px; margin-bottom: 30px; overflow:hidden; }
+		div.postmeta { width:100%; height:1%; float:left; margin-bottom: 10px; }
+		body.single div#content div.postmeta, body.page div#content div.postmeta { margin-bottom: 30px; }
+			div.postmeta span.author {}
+				body.blog div.postmeta span.author { display:none; }
+			div.postmeta span.categories {}
+			div.postmeta span.tags {}
+			div.postmeta span.timestamp {}
+			div.postmeta span.comments { float:right; margin-left: 10px; }
+				div.postmeta span.comments span {}
+		p.attachmentnav { padding-top: 5px; color: #777; font-style:italic; }
+			p.attachmentnav a { font-style: normal; }
+		div.post div.entry, div.page div.entry { width:100%; float:left; }
+	div.sticky { padding: 20px 20px 8px 20px; background: #f8f8f8; border: 1px solid #e8e8e8; border-width: 1px 0; height: 1%; }
+	h2#comments { margin: 0 20px 20px 20px; padding-bottom: 10px; border: 1px solid #e8e8e8; border-width: 0 0 1px 0; }
+	ol.commentlist {}
+		ol.commentlist li { margin: 0 20px 10px 20px; padding: 0; list-style:none; border: 1px solid #e8e8e8; border-width: 0 0 1px 0; }
+			ol.commentlist li div.comment-author, ol.commentlist li div.comment-meta { font-size: 12px; line-height: 16px; }
+				ol.commentlist li div.comment-author img.avatar { float:left; margin: 0 10px 0 0; }
+				div.comment-author cite.fn { font-family: museo-slab,serif; font-size: 16px; font-style: normal; font-weight:bold; }
+					div.comment-author cite.fn a { text-decoration: none; }
+				div.comment-meta { margin-bottom: 10px; }
+		ol.commentlist li.even {}
+		ol.commentlist li.odd {}
+		ol.commentlist li.bypostauthor {}
+		ol.commentlist li.pingback { font-size: 12px; color: #777; padding: 0 0 10px 5px; color: #777; }
+			ol.commentlist li.pingback a { font-size: 12px; font-weight:normal; }
+			ol.commentlist li.pingback p, ol.commentlist li.pingback span, ol.commentlist li.pingback div.comment-meta, ol.commentlist li.pingback div.reply { display:none; }
+		div.reply { float:right; display:block; margin: -25px 0 0 0; line-height: 12px; }
+			a.comment-reply-link { display:block; float:left; margin-left: 10px; }
+		ul.children { margin: 20px 0 20px 20px; }
+			ul.children li { margin: 10px 0; padding-left: 10px; border: 1px solid #e8e8e8; border-width: 0 0 0 1px; }
+	div#respond { margin: 20px; }
+		div#respond h3 {}
+		table.commenttable { border:0; padding: 0; }
+		table.commenttable tr td { font-size: 12px; line-height: 12px; text-transform: uppercase;  }
+		form#commentform {}
+			input#author, input#email, input#url { margin-bottom: 5px; padding: 2px; width: 250px; font-style: italic; }
+			textarea#comment { width: 556px; height: 150px; padding: 10px; font-style: italic; }
+			input#submit { float:right; margin-bottom: 20px; }
+	div.nav { float:left; display:block; }
+		div.commentnav div.left, div.commentnav div.right { padding: 0 20px 20px 20px; }
+	div.entry ul li ul.children { margin: 10px 20px; }
+		div.entry ul li ul.children li { margin: 0 0 5px 0; padding-left: 0; border: 0; }
+
+ul#sidebar
+	{
+	float:right;
+	margin-top: 20px;
+	}
+	ul#sidebar ul.children { margin: 5px 0 0 0; }
+		ul#sidebar ul.children li { border: 0; }
+	ul#sidebar li { list-style: none; margin: 0 20px 20px 0; }
+		ul#sidebar li ul { margin-left: 5px; }
+			ul#sidebar li ul li { margin-bottom: 5px; }
+				ul#sidebar li ul li ul { margin: 5px 0 0 10px; }
+	li#tag_cloud {}
+		li#tag_cloud a { padding: 0 2px; }
+	li#search {}
+	ul#sidebar li.categories {}
+
+div#copy
+	{
+	width: 927px;
+	margin-left:170px;
+	float:left;
+	clear:both;
+	margin: 0;
+	padding: 10px 0;
+	background: #f8f8f8;
+	border: 1px solid #bbb;
+	border-width: 0 0 1px 0;
+	}
+	div#copy p { margin:0; padding:0 0 0 10px; }
+	div#copy p.right { padding: 0 10px 0 0; }
+	div.copycolumnwide { float:left; width:620px; }
+	div.copycolumn { float:right; width:320px; }
+
+div#finalword
+	{
+	width: 927px;
+	margin-left:170px;
+	float:left;
+	clear:both;
+	margin: 0;
+	padding: 20px 0;
+	color: #777;
+	text-align:center;
+	font-size: 12px;
+	font-style: italic;
+	}
+	div#finalword a:link, div#finalword a:active, div#finalword a:visited { color: #444; }
+	div#finalword span { font-style:normal; }
+
+
+/* ===================
+	ELEMENTS & DESIGN
+   ------------------- */
+
+p.right { text-align:right; }
+p.center { text-align:center; }
+p.admin { color: #aaa; font-size: 12px; }
+p.nocomments { padding: 0 20px; font-style: italic; color: #777; }
+
+div#content embed, .embedded { text-align:center; margin: 0 0 14px 0; } /* for movies */
+
+div#content p span { background: #ffc; }
+
+div.post ul li, div.page ul li, div.post ol li, div.page ol li { margin-bottom: 5px; color: #333; }
+
+blockquote { margin: 0 0 14px 20px; padding: 0 15px; border: 1px solid #e8e8e8; border-width: 0 0 0 1px; color: #777; font-style: italic; }
+	blockquote.pullquote { width: 220px; padding: 5px 0; border: 0; font-size: 18px; line-height: 150%; }
+		blockquote.pullquote p { margin-bottom: 0; }
+ol.commentlist li blockquote { border: 0; padding:0; }
+
+/* Images and aligns */
+.alignleft, blockquote.alignleft { float:left; margin: 0 15px 15px 0; }
+.alignright, blockquote.alignright { float:right; margin: 0 0 15px 15px; }
+.frame { padding: 5px; border: 1px solid #e8e8e8; }
+.wp-caption { padding: 10px 7px; border: 1px solid #e8e8e8; font-size: 12px; color: #777; font-style: italic; text-align:center; }
+p.wp-caption-text { margin:10px 0 0 0 !important; padding:0; line-height: 14px !important; }
+
+div.gallery { margin-bottom: 14px; }
+	dl.gallery-item {}
+		dt.gallery-icon {}
+			img.attachment-thumbnail { border:0; }
+		dd.gallery-caption { margin-top: 8px; font-size: 12px; color: #777; font-style: italic; }
+
+/* Quick color fixes */
+div.postmeta { color: #777; }
+span.alert { color: red; background:none; }
+div#content strong { color: #333; }
+
+/*** ESSENTIAL STYLES ***/
+.sf-menu, .sf-menu * {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.sf-menu {
+	line-height:	1.2;
+}
+.sf-menu ul {
+	position: absolute;
+	top: -999em;
+	width: 10em; /* left offset of submenus need to match (see below) */
+}
+.sf-menu ul li {
+	width: 100%;
+}
+.sf-menu li:hover {
+	visibility: inherit; /* fixes IE7 'sticky bug' */
+}
+.sf-menu li {
+	float: left;
+	position: relative;
+}
+.sf-menu a {
+	display: block;
+	position: relative;
+}
+.sf-menu li:hover ul,
+.sf-menu li.sfHover ul {
+	left: 0;
+	top: 2.7em; /* match sf-menu line height */
+	z-index: 99;
+}
+ul.sf-menu li:hover li ul,
+ul.sf-menu li.sfHover li ul {
+	top: -999em;
+}
+ul.sf-menu li li:hover ul,
+ul.sf-menu li li.sfHover ul {
+	left: 10em; /* match ul width */
+	top: 0;
+}
+ul.sf-menu li li:hover li ul,
+ul.sf-menu li li.sfHover li ul {
+	top: -999em;
+}
+ul.sf-menu li li li:hover ul,
+ul.sf-menu li li li.sfHover ul {
+	left: 10em; /* match ul width */
+	top: 0;
+}
+
+/*** CPC SKIN ***/
+.sf-menu {
+	float:			left;
+	margin-bottom:	1em;
+}
+.sf-menu a {
+	border-left:	0px solid #fff;
+	border-top:		0px solid #CFDEFF;
+	padding: 		.75em 1em;
+	font-weight:bold;
+	text-decoration:none;
+	color:white;
+}
+.sf-menu a, .sf-menu a:visited  { /* visited pseudo selector so IE6 applies text colour*/
+	color:			#FFFFFF;
+}
+.sf-menu li {
+	background:		#9d022e;
+	margin-left:	20px;
+	margin-right:	20px;
+}
+.sf-menu li li {
+	background:		#535255;
+	margin-left:	10px;
+	opacity:1.0;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+.sf-menu li li li {
+	background:		#535255;
+	opacity:1.0;
+	margin-left:	0px;
+	filter:alpha(opacity=100); /* For IE8 and earlier */
+}
+.sf-menu li:hover, .sf-menu li.sfHover,
+.sf-menu a:focus, .sf-menu a:hover, .sf-menu a:active {
+	/*background:		#535255;*/
+	outline:		0;
+	color:			#000000;
+}
+/* Event Espresso Stuff */
+.subpage_excerpt .date_picker{
+	display: none;
+}
+
+/* Event Espresso registration form basic styling */
+.event_questions label {
+width: 125px;
+text-align: right;
+float: left;
+margin-right: 5px;
+font-weight: bold;
+}
+ 
+.event_questions label em {
+color: red;
+font-weight: bold;
+}
+ 
+.coupon_code label {
+font-weight: bold !important;
+}
+ 
+input[type="text"] {
+margin-right: 5px;
+display: inline;
+}
+ 
+.error {
+color: red;
+font-weight: normal !important;
+}
