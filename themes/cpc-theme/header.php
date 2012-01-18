@@ -20,7 +20,7 @@
 <script type="text/javascript" src="<?php bloginfo('stylesheet_directory')?>/includes/jquery.nivo.slider.pack.js"></script>
 
 <script type="text/javascript"> 
-// initialise Superfish 
+// initialise Superfish script
 $(document).ready(function(){ 
   $("ul.sf-menu").superfish({ 
 animation: {opacity:'show',height:'show'}, // fade-in and slide-down animation
