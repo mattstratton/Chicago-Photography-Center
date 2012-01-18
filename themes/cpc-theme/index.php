@@ -42,7 +42,7 @@
 	<?php
 	if (is_category()) {
    		echo '<h1 class="listhead">';
-   		_e("Category", "notesblog");
+   		//_e("Category", "notesblog");
    		echo ' <strong>';
    		single_cat_title();
    		echo '</strong></h1>';
