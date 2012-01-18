@@ -86,7 +86,7 @@ jQuery(window).load(function() {
 $theme_name = 'cpc-theme';
 $theme_data = get_theme_data( get_theme_root() . '/' . $theme_name . '/style.css' );
 ?>
-<!--Version number: <?php $theme_data['Version']; ?>-->
+<!--Version number: <?php echo $theme_data['Version']; ?>-->
 
 </head>
 <body <?php body_class(); ?>>
