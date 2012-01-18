@@ -44,7 +44,7 @@
    		echo '<h1>';
    		//_e("Category", "notesblog");
    		single_cat_title();
-   		</h1>';
+   		echo '</h1>';
    	} if (is_tag()) {
    		echo '<h1 class="listhead">';
    		_e("Tag", "notesblog");
