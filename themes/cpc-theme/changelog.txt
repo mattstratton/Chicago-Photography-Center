@@ -7,6 +7,7 @@ CHANGELOG
 Version 1.0.2
 	* Added use of changelog.txt for updates.
 	* Using blog style for events listings.
+	* Moved slider images into /wp-content/uploads/slider
 	
 Version 1.0.1
 	* Initial production release
