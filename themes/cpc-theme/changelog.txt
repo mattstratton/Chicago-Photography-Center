@@ -1,4 +1,11 @@
-CHANGELOG | 0.0.1
+CHICAGO PHOTOGRAPHY CENTER WORDPRESS THEME CHANGELOG
+by Matt Stratton
+http://www.mattstratton.com
 
+CHANGELOG
 
-# Initial creation of theme
+Version 1.0.2
+	* Added use of changelog.txt for updates.
+	
+Version 1.0.1
+	* Initial production release
