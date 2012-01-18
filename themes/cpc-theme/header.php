@@ -81,6 +81,14 @@ jQuery(window).load(function() {
 	});
 });
 </script>
+<!--Theme version:
+<?php
+$theme_name = 'cpc-theme';
+$theme_data = get_theme_data( get_theme_root() . '/' . $theme_name . '/style.css' );
+echo $theme_data['Version'];
+
+?>
+-->
 </head>
 <body <?php body_class(); ?>>
 <div id="site">
