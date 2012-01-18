@@ -37,16 +37,16 @@ Template Name: Home Page
 </div>
 <div id="content-right">
 	<div id="slider" class="nivoSlider">
-		<img src="<?php bloginfo('stylesheet_directory')?>/images/slider/01_murray_01.jpg" alt=""/>
-		<img src="<?php bloginfo('stylesheet_directory')?>/images/slider/02_rentauskas_03.jpg" alt=""/>
-		<img src="<?php bloginfo('stylesheet_directory')?>/images/slider/03_harris_07.jpg" alt="" />
-		<img src="<?php bloginfo('stylesheet_directory')?>/images/slider/04_johnson_01.jpg" alt="" />
-		<img src="<?php bloginfo('stylesheet_directory')?>/images/slider/05_gross_04.jpg" alt=""/>
-		<img src="<?php bloginfo('stylesheet_directory')?>/images/slider/06_wells_02.jpg" alt=""/>
-		<img src="<?php bloginfo('stylesheet_directory')?>/images/slider/07_klein_03.jpg" alt="" />
-		<img src="<?php bloginfo('stylesheet_directory')?>/images/slider/08_perlstein_09.jpg" alt="" />
-		<img src="<?php bloginfo('stylesheet_directory')?>/images/slider/09_snow_02.jpg" alt="" />
-		<img src="<?php bloginfo('stylesheet_directory')?>/images/slider/10_mcroberts_05.jpg" alt="" />
+		<img src="/wp-content/uploads/slider/01.jpg" alt=""/>
+		<img src="/wp-content/uploads/slider/02.jpg" alt=""/>
+		<img src="/wp-content/uploads/slider/03.jpg" alt="" />
+		<img src="/wp-content/uploads/slider/04" alt="" />
+		<img src="/wp-content/uploads/slider/05" alt=""/>
+		<img src="/wp-content/uploads/slider/06" alt=""/>
+		<img src="/wp-content/uploads/slider/07" alt="" />
+		<img src="/wp-content/uploads/slider/08" alt="" />
+		<img src="/wp-content/uploads/slider/09" alt="" />
+		<img src="/wp-content/uploads/slider/10" alt="" />
 	</div>
 	<div><hr /></div>
 	<div id="content">
