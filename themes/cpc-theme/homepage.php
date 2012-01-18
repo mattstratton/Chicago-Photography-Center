@@ -40,13 +40,13 @@ Template Name: Home Page
 		<img src="/wp-content/uploads/slider/01.jpg" alt=""/>
 		<img src="/wp-content/uploads/slider/02.jpg" alt=""/>
 		<img src="/wp-content/uploads/slider/03.jpg" alt="" />
-		<img src="/wp-content/uploads/slider/04" alt="" />
-		<img src="/wp-content/uploads/slider/05" alt=""/>
-		<img src="/wp-content/uploads/slider/06" alt=""/>
-		<img src="/wp-content/uploads/slider/07" alt="" />
-		<img src="/wp-content/uploads/slider/08" alt="" />
-		<img src="/wp-content/uploads/slider/09" alt="" />
-		<img src="/wp-content/uploads/slider/10" alt="" />
+		<img src="/wp-content/uploads/slider/04.jpg" alt="" />
+		<img src="/wp-content/uploads/slider/05.jpg" alt=""/>
+		<img src="/wp-content/uploads/slider/06.jpg" alt=""/>
+		<img src="/wp-content/uploads/slider/07.jpg" alt="" />
+		<img src="/wp-content/uploads/slider/08.jpg" alt="" />
+		<img src="/wp-content/uploads/slider/09.jpg" alt="" />
+		<img src="/wp-content/uploads/slider/10.jpg" alt="" />
 	</div>
 	<div><hr /></div>
 	<div id="content">
