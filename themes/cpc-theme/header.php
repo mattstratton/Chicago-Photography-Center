@@ -23,7 +23,7 @@
 // initialise Superfish script
 $(document).ready(function(){ 
   $("ul.sf-menu").superfish({ 
-animation: {opacity:'show',height:'show'}, // fade-in and slide-down animation
+animation: {opacity:'show',height:'show'}, // fade-in and slide-down animations
 delay: 500, // 0.5 second delay on mouseout 
 autoArrows:  false, 
 speed: 'normal'
