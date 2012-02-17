@@ -8,6 +8,9 @@ Version 1.0.2
 	* Added use of changelog.txt for updates.
 	* Using blog style for events listings.
 	* Moved slider images into /wp-content/uploads/slider
+	* Reduced fadebox slider time to 5 seconds (previously 10 seconds)
+	* Added theme version into header HTML as a comment
+	* Changed "Read previous/recent entries" to "previous/next" for blog posts
 	
 Version 1.0.1
 	* Initial production release
