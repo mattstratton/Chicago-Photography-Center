@@ -11,6 +11,8 @@ Version 1.0.2
 	* Reduced fadebox slider time to 5 seconds (previously 10 seconds)
 	* Added theme version into header HTML as a comment
 	* Changed "Read previous/recent entries" to "previous/next" for blog posts
+	* Added <hr> element between excerpts on category and blog pages.
+	* Fixed font-family style for H2 element on all pages
 	
 Version 1.0.1
 	* Initial production release
