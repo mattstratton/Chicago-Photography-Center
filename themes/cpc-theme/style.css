@@ -334,7 +334,7 @@ div#content h2
 	font-family: museo-slab,serif; 
 	font-weight:normal;
 	}
-	body.single div#content h2, body.page div#content h2 { margin-top: 24px; font-family: museo-slab,serif; font-weight:normal; }
+	body.single div#content h2, body.page div#content h2 { margin-top: 24px;}
 	body.home div#content h2, body.archive div#content h2, body.search div#content h2, body.error404 div#content h2 { font-family: museo-slab,serif; font-weight:normal; }
 div#content h3
 	{
