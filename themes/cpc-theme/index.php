@@ -58,7 +58,7 @@
    	}
 	
 	if (is_home()) {
-		query_posts("cat=4");
+		query_posts("cat=4,9");
 	}
    	?>
 
@@ -94,6 +94,10 @@
 				<?php if (is_single() || is_page()) { edit_post_link(__('Edit', 'notesblog'), '<p class="admin">Admin: ', '</p>'); wp_link_pages('before=<p class="pagelink">' . __('Pages:', 'notesblog') .' &after=</p>'); } ?>
 			</div>
 			<?php //if (is_single()){comments_template('', true);} ?>
+			<?php if (is_category()) {
+				echo '<hr>';
+			}
+			?>
 
 		<?php endwhile; ?>
 		
