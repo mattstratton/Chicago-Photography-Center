@@ -61,7 +61,7 @@ $(document).ready(function(){
 
 
 $('#fadebox').cycle(['community.', 'learning.', 'inspiration.'], {
-    delay: 10000,
+    delay: 5000,
     transitionDuration: 300,
     transitionEasing: 'linear'
 });
