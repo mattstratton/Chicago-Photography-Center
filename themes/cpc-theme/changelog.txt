@@ -4,6 +4,8 @@ http://www.mattstratton.com
 
 CHANGELOG
 
+Version 1.0.3
+
 Version 1.0.2
 	* Added use of changelog.txt for updates.
 	* Using blog style for events listings.
