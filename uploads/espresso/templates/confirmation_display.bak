@@ -121,8 +121,9 @@ $attendee_num = 1;
 							</div>
 						
             <p class="espresso_confirm_registration"><input class="btn_event_form_submit" type="submit" name="confirm" id="confirm" value="<?php _e('Confirm Registration', 'event_espresso'); ?>" /></p>
-						<!--a piece is removed here on purpose-->
-					
+						
+					
+					<?php /* This form builds the confirmation buttons */?>
 
   
         <input name="confirm_registration" id="confirm_registration" type="hidden" value="true" />

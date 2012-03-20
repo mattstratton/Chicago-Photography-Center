@@ -3,8 +3,7 @@
  * The AuthorizeNet PHP SDK. Include this file in your project.
  *
  * @package AuthorizeNet
- */$authnet_aim_gateway_version = '1.0';
-
+ */
 require dirname(__FILE__) . '/lib/shared/AuthorizeNetRequest.php';
 require dirname(__FILE__) . '/lib/shared/AuthorizeNetTypes.php';
 require dirname(__FILE__) . '/lib/shared/AuthorizeNetXMLResponse.php';

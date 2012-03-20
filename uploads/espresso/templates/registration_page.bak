@@ -16,8 +16,8 @@ if (!function_exists('register_attendees')) {
         if (isset($_REQUEST['ee']) && $_REQUEST['ee'] != '') {
             $_REQUEST['event_id'] = $_REQUEST['ee'];
         }
-        $event_id = $event_id_sc != '0' ? $event_id_sc : $_REQUEST['event_id'];
-
+
+        $event_id = $event_id_sc != '0' ? $event_id_sc : ($_REQUEST['event_id']);
 
         if (!empty($_REQUEST['event_id_time'])) {
             $pieces = explode('|', $_REQUEST['event_id_time'], 3);
