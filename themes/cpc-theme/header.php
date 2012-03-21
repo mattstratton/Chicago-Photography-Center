@@ -86,10 +86,10 @@ jQuery(window).load(function() {
 $theme_name = 'cpc-theme';
 $theme_data = get_theme_data( get_theme_root() . '/' . $theme_name . '/style.css' );
 ?>
-<!-- Begin CCP2012 thing-->
+<!-- Begin CCP2012 thing
 <style media="screen" type="text/css"> .float_banner { position:fixed; bottom: 5px;
 right: 10px; z-index:1000; back-color:transparent; overflow:hidden; } </style>
-<!-- End CCP2012 thing-->
+End CCP2012 thing-->
 
 <!--Version number: <?php echo $theme_data['Version']; ?>-->
 
