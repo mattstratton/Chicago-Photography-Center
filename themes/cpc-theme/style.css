@@ -221,7 +221,7 @@ div#groupon-box {
 	font-weight:900;
 	text-align:left;
 }
-div#groupon-box a:link, div#free-box a:active,  div#free-box a:visited	{
+div#groupon-box a:link, div#groupon-box a:active,  div#groupon-box a:visited	{
 	color:#000;
 }
 /*MOVE THIS hr*/
