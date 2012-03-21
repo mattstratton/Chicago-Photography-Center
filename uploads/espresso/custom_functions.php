@@ -169,3 +169,22 @@ if (!function_exists('espresso_list_builder')) {
 	<?php
 	}
 }*/
+// This is the thing for the discount code fix
+
+if (!function_exists('event_espresso_coupon_registration_page')) {
+    function event_espresso_coupon_registration_page($use_coupon_code, $event_id, $multi_reg = 0) {
+        global $espresso_premium;
+        if ($espresso_premium != true)
+            return;
+        if ($use_coupon_code == "Y") {
+
+            $multi_reg_adjust = $multi_reg == 1 ? "[$event_id]" : '';
+
+            $output ='<p class="event_form_field coupon_code" id="coupon_code-' . $event_id . '">';
+            $output .= '<label for="coupon_code">' . __('Enter Discount Code', 'event_espresso') . ':</label>';
+            $output .= '<input type="text" tabIndex="9" maxLength="25" size="35" name="coupon_code';
+            $output .= $multi_reg_adjust . '" id="coupon_code-' . $event_id . '"></p>';
+        } else $output = '';
+        return $output;
+    }
+}
