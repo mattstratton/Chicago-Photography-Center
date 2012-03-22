@@ -112,11 +112,8 @@
 				<?php next_post_link('<div class="right">%link</div>'); ?> 
 				<?php previous_post_link('<div class="left">%link</div>'); ?> 
 			<?php } else { ?>
-			<!--old nav
 				<div class="left"><?php next_posts_link(__('previous', 0)) ?></div>
 				<div class="right"><?php previous_posts_link(__('next', 0)) ?></div>
-					-->
-			<?php wp_pagenavi(); ?>
 			<?php } ?>
 			</div>
 		
