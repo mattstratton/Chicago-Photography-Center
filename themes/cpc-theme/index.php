@@ -103,8 +103,11 @@
 		
 			<div class="nav widecolumn">
 			<?php if (is_attachment()) { ?>
+			<!--old nav
 				<div class="left"><?php next_image_link('', __('View previous', 'notesblog')); ?></div>
 				<div class="right"><?php previous_image_link('', __('View next', 'notesblog')); ?></div>
+				-->
+			<?php wp_pagenavi(); ?>
 			<?php } elseif (is_single()) { ?>
 				<?php next_post_link('<div class="right">%link</div>'); ?> 
 				<?php previous_post_link('<div class="left">%link</div>'); ?> 
