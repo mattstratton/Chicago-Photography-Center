@@ -5,7 +5,9 @@ http://www.mattstratton.com
 CHANGELOG
 
 Version 1.0.3
-	*
+	* Changed "Enter Promotional / Discount Code" to "Discount Code"
+	* Fixed display bug in "Groupon Start Here" visited CSS
+	* Updated Event Espresso plugin to 3.1.20
 
 Version 1.0.2
 	* Added use of changelog.txt for updates.
