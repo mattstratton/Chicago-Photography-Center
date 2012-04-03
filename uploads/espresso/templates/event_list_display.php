@@ -136,7 +136,7 @@ $first_event_excerpt = array_shift(explode('<!--more-->', html_entity_decode($fi
 
             if ($events_group[0]['start_date'] != $events_group[0]['end_date']) :
 
-            echo '–'.event_date_display($events_group[0]['end_date'], get_option('date_format'));
+            echo ' to '.event_date_display($events_group[0]['end_date'], get_option('date_format'));
 
             endif; ?>
 
