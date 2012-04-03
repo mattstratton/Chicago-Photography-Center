@@ -98,7 +98,7 @@ $first_event_excerpt = array_shift(explode('<!--more-->', html_entity_decode($fi
 
                     if ($e['start_date'] != $e['end_date']) : 
 
-                        echo event_date_display($e['start_date'], 'l, F j, Y').' – '.event_date_display($e['end_date'], 'l, F j, Y');
+                        echo event_date_display($e['start_date'], 'l, F j, Y').' to '.event_date_display($e['end_date'], 'l, F j, Y');
 
                     else : 
 
@@ -136,7 +136,7 @@ $first_event_excerpt = array_shift(explode('<!--more-->', html_entity_decode($fi
 
             if ($events_group[0]['start_date'] != $events_group[0]['end_date']) :
 
-            echo '–'.event_date_display($events_group[0]['end_date'], get_option('date_format'));
+            echo ' to '.event_date_display($events_group[0]['end_date'], get_option('date_format'));
 
             endif; ?>
 
