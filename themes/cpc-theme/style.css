@@ -669,8 +669,9 @@ ul.sf-menu li li li.sfHover ul {
 .sf-menu a {
 	border-left:	0px solid #fff;
 	border-top:		0px solid #CFDEFF;
-	padding: 		.75em 1em;
-	font-weight:bold;
+	padding: 		.75em .75em;
+	/*font-weight:bold;*/
+	font-weight:200
 	text-decoration:none;
 	color:white;
 }
