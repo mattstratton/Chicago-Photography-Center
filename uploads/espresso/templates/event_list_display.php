@@ -166,7 +166,7 @@ $first_event_excerpt = array_shift(explode('<!--more-->', html_entity_decode($fi
 
             
 
-            <p><a href="<?php echo $first_event_instance['registration_url']; ?>" title="<?php echo stripslashes_deep($first_event_instance['event_name'])?>"><?php _e('Learn More', 'event_espresso'); ?></a></p>
+            <p><a href="<?php echo $first_event_instance['registration_url']; ?>" title="<?php echo stripslashes_deep($first_event_instance['event_name'])?>"><?php _e('>>LEARN MORE', 'event_espresso'); ?></a></p>
 
         
 
