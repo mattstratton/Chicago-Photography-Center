@@ -281,7 +281,6 @@ body {
 	padding:0px;
 	font-family: proxima-nova,sans-serif;
 	color: #555;
-	letter-spacing: 2px;
   /* adjust width as needed */
 }	
 	
@@ -296,15 +295,15 @@ div.post ul, div.page ul, div.post ol, div.page ol, div.nav
 
 /* Default font size */
 div#content, textarea#comment, input#author, input#email, input#url
-	{ font-size: 16px; }
+	{ font-size: 14px;letter-spacing: 1px; }
 
 /* Medium-small font */
 a.more-link, div.comment-body p
-	{ font-size: 14px; }
+	{ font-size: 12px; }
 
 /* Small font */
 div#content small, div#copy, div.postmeta, ul#sidebar, div#footer, p.commentloggedin, div.reply, div.feed, div#submenu-nav
-	{ font-size: 12px; }
+	{ font-size: 10px; }
 
 /* Headers */
 div#content h1, div#content h2, div#content h3, div#content h4, div#content h5
