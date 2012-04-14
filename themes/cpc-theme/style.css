@@ -158,6 +158,8 @@ div#location-box {
 	font-family: museo-slab,serif;
 	font-weight:900;
 	text-align:left;
+	letter-spacing:1.5px;
+	font-weight:100;
 }
 
 div#location-box a:link, div#location-box a:active,  div#location-box a:visited	{
@@ -170,6 +172,8 @@ div#social-box {
 	margin-top: 5px;
 	margin-bottom: 10px;
 	text-align:left;
+	letter-spacing:1.5px;
+	font-weight:100;
 }
 
 div#social-box a:link, div#social-box a:active,  div#social-box a:visited	{
@@ -185,8 +189,9 @@ div#member-box {
 	color: #000000;
 	line-height:150%;
 	font-family: museo-slab,serif;
-	font-weight:900;
 	text-align:left;
+	letter-spacing:1.5px;
+	font-weight:100;
 }
 
 div#member-box a:link, div#member-box a:active,  div#member-box a:visited	{
@@ -196,12 +201,14 @@ div#free-box {
 	background-color: #9d022e; 
 	padding: 10px; 
 	margin-top: 5px;
+	margin-bottom: 10px;
 	font-size: 16px; 
 	color: #000000;
 	line-height:150%;
 	font-family: museo-slab,serif;
-	font-weight:900;
 	text-align:left;
+	letter-spacing:1.5px;
+	font-weight:100;
 }
 div#free-box a:link, div#free-box a:active,  div#free-box a:visited	{
 	color:#000;
@@ -214,12 +221,14 @@ div#groupon-box {
 	background-color: #9d022e; 
 	padding: 10px; 
 	margin-top: 5px;
+	margin-bottom: 10px;
 	font-size: 16px; 
 	color: #000000;
 	line-height:150%;
 	font-family: museo-slab,serif;
-	font-weight:900;
 	text-align:left;
+	letter-spacing:1.5px;
+	font-weight:100;
 }
 div#groupon-box a:link, div#groupon-box a:active,  div#groupon-box a:visited	{
 	color:#000;
