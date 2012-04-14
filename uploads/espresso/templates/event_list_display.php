@@ -70,7 +70,7 @@ $first_event_excerpt = array_shift(explode('<!--more-->', html_entity_decode($fi
 
         
 
-        <p><a href="#" onClick="$jaer('#date_picker_<?php echo $first_event_instance['event_id']?>').slideDown('slow');$jaer(this).parent().slideUp('slow');return false;" class="register_date" id="register_date_<?php echo $first_event_instance['event_id']?>">Learn More</a></p>
+        <p><a href="#" onClick="$jaer('#date_picker_<?php echo $first_event_instance['event_id']?>').slideDown('slow');$jaer(this).parent().slideUp('slow');return false;" class="register_date" id="register_date_<?php echo $first_event_instance['event_id']?>">>>LEARN MORE</a></p>
 
         <div class="date_picker" id="date_picker_<?php echo $first_event_instance['event_id']?>">
 
