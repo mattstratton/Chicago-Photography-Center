@@ -255,8 +255,8 @@ nav ul.sf-menu {
 	background: #9d022e;/*give your menu a bg colour, if necessary */
 	width: 972px; /* same as header width */
 	text-transform:uppercase;
-	letter-spacing:2px;
-	font-weight:200;
+	letter-spacing:1.5px;
+	font-weight:150;
 }
 
 /* ==============
