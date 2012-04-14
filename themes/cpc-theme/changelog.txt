@@ -4,6 +4,10 @@ http://www.mattstratton.com
 
 CHANGELOG
 
+Version 1.0.4
+	* Added space between searchbox and redribbon
+	* Removed text from searchbox
+
 Version 1.0.3
 	* Changed "Enter Promotional / Discount Code" to "Discount Code"
 	* Fixed display bug in "Groupon Start Here" visited CSS
