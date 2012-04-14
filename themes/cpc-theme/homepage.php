@@ -77,7 +77,7 @@ Template Name: Home Page
 							<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
 							<h2><?php the_title(); ?></h2>
 							  <?php the_excerpt(); ?><BR/>
-							  <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">>>LEARN MORE</a>
+							  <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">>>LEARN MORE</a>							  <br />							  <hr />
 						  </div>
 						<?php endwhile; ?>
 					  <?php else : ?>
