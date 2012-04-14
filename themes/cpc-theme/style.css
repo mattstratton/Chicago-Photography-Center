@@ -314,9 +314,9 @@ div#content h1, div#content h2, div#content h3, div#content h4, div#content h5
 	}
 div#content h1
 	{
-	font-size: 32px;
-	line-height: 42px;
-	letter-spacing: -1px;
+	font-size: 28px;
+	line-height: 28px;
+	letter-spacing: 2px;
 	font-weight: 100;
 	margin-bottom: 7px;
 	padding-bottom: 14px;
@@ -329,10 +329,12 @@ div#content h1
 		div#content h1.listhead strong { color: #333; }
 div#content h2
 	{
-	font-size: 28px;
-	line-height: 28px;
+	font-size: 20px;
+	line-height: 20px;
 	font-family: museo-slab,serif; 
-	font-weight:normal;
+	font-weight:100;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 	}
 	body.single div#content h2, body.page div#content h2 { margin-top: 24px;}
 	body.home div#content h2, body.archive div#content h2, body.search div#content h2, body.error404 div#content h2 { font-family: museo-slab,serif; font-weight:normal; }
