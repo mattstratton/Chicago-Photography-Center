@@ -473,7 +473,7 @@ div#blog {
 	
 div#content { 
 float:right; 
-margin-top: 20px;
+/*margin-top: 20px; */
 text-align:left;}
 	div.post, div.page, div.attachment { padding: 10px 20px 0 20px; margin-bottom: 0px; overflow:hidden; }
 		div.postmeta { width:100%; height:1%; float:left; margin-bottom: 10px; }
