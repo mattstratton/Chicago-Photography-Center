@@ -695,6 +695,8 @@ ul.sf-menu li li li.sfHover ul {
 .sf-menu li li {
 	background:		#535255;
 	margin-left:	10px;
+	text-align:		left;
+	font-size:		12px;
 	opacity:1.0;
 	filter:alpha(opacity=100); /* For IE8 and earlier */
 }
