@@ -2,7 +2,7 @@
 Theme Name: Chicago Photography Center
 Theme URI: http://cpc.mattstratton.com
 Description: This theme is built for the Chicago Photography Center. It is based upon Notes Blog Core
-Version: 1.0.3
+Version: 1.0.4
 Tags: light, two-columns, right-sidebar, fixed-width, threaded-comments
 Author: Matt Stratton
 Author URI: http://www.mattstratton.com/
@@ -65,7 +65,7 @@ div.donatebutton {
 div#searchbox
 	{
 	float:right;
-	margin-top:150px;
+	margin-top:125px;
 	margin-right:-71px;
 	}
 	
@@ -158,6 +158,8 @@ div#location-box {
 	font-family: museo-slab,serif;
 	font-weight:900;
 	text-align:left;
+	letter-spacing:1.5px;
+	font-weight:100;
 }
 
 div#location-box a:link, div#location-box a:active,  div#location-box a:visited	{
@@ -170,6 +172,8 @@ div#social-box {
 	margin-top: 5px;
 	margin-bottom: 10px;
 	text-align:left;
+	letter-spacing:1.5px;
+	font-weight:100;
 }
 
 div#social-box a:link, div#social-box a:active,  div#social-box a:visited	{
@@ -185,8 +189,9 @@ div#member-box {
 	color: #000000;
 	line-height:150%;
 	font-family: museo-slab,serif;
-	font-weight:900;
 	text-align:left;
+	letter-spacing:1.5px;
+	font-weight:100;
 }
 
 div#member-box a:link, div#member-box a:active,  div#member-box a:visited	{
@@ -196,12 +201,14 @@ div#free-box {
 	background-color: #9d022e; 
 	padding: 10px; 
 	margin-top: 5px;
+	margin-bottom: 10px;
 	font-size: 16px; 
 	color: #000000;
 	line-height:150%;
 	font-family: museo-slab,serif;
-	font-weight:900;
 	text-align:left;
+	letter-spacing:1.5px;
+	font-weight:100;
 }
 div#free-box a:link, div#free-box a:active,  div#free-box a:visited	{
 	color:#000;
@@ -214,12 +221,14 @@ div#groupon-box {
 	background-color: #9d022e; 
 	padding: 10px; 
 	margin-top: 5px;
+	margin-bottom: 10px;
 	font-size: 16px; 
 	color: #000000;
 	line-height:150%;
 	font-family: museo-slab,serif;
-	font-weight:900;
 	text-align:left;
+	letter-spacing:1.5px;
+	font-weight:100;
 }
 div#groupon-box a:link, div#groupon-box a:active,  div#groupon-box a:visited	{
 	color:#000;
@@ -247,7 +256,7 @@ nav {
 	position:relative;
 	z-index:10;
 	float:left;
-	margin-left:75px;
+	margin-left:80px;
 	margin-top:-76px;
 }
 nav ul.sf-menu {
@@ -255,7 +264,8 @@ nav ul.sf-menu {
 	background: #9d022e;/*give your menu a bg colour, if necessary */
 	width: 972px; /* same as header width */
 	text-transform:uppercase;
-	font-weight:300;
+	letter-spacing:1.5px;
+	font-weight:100;
 }
 
 /* ==============
@@ -281,7 +291,6 @@ body {
 	padding:0px;
 	font-family: proxima-nova,sans-serif;
 	color: #555;
-
   /* adjust width as needed */
 }	
 	
@@ -296,15 +305,15 @@ div.post ul, div.page ul, div.post ol, div.page ol, div.nav
 
 /* Default font size */
 div#content, textarea#comment, input#author, input#email, input#url
-	{ font-size: 16px; }
+	{ font-size: 14px;letter-spacing: 1px; }
 
 /* Medium-small font */
 a.more-link, div.comment-body p
-	{ font-size: 14px; }
+	{ font-size: 12px; }
 
 /* Small font */
 div#content small, div#copy, div.postmeta, ul#sidebar, div#footer, p.commentloggedin, div.reply, div.feed, div#submenu-nav
-	{ font-size: 12px; }
+	{ font-size: 10px; }
 
 /* Headers */
 div#content h1, div#content h2, div#content h3, div#content h4, div#content h5
@@ -314,9 +323,9 @@ div#content h1, div#content h2, div#content h3, div#content h4, div#content h5
 	}
 div#content h1
 	{
-	font-size: 32px;
-	line-height: 42px;
-	letter-spacing: -1px;
+	font-size: 24px;
+	line-height: 24px;
+	letter-spacing: 2px;
 	font-weight: 100;
 	margin-bottom: 7px;
 	padding-bottom: 14px;
@@ -329,10 +338,12 @@ div#content h1
 		div#content h1.listhead strong { color: #333; }
 div#content h2
 	{
-	font-size: 28px;
-	line-height: 28px;
+	font-size: 18px;
+	line-height: 18px;
 	font-family: museo-slab,serif; 
-	font-weight:normal;
+	font-weight:100;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 	}
 	body.single div#content h2, body.page div#content h2 { margin-top: 24px;}
 	body.home div#content h2, body.archive div#content h2, body.search div#content h2, body.error404 div#content h2 { font-family: museo-slab,serif; font-weight:normal; }
@@ -471,9 +482,9 @@ div#blog {
 	
 div#content { 
 float:right; 
-margin-top: 20px;
+/*margin-top: 20px; */
 text-align:left;}
-	div.post, div.page, div.attachment { padding: 10px 20px 0 20px; margin-bottom: 30px; overflow:hidden; }
+	div.post, div.page, div.attachment { padding: 0px 0px 0 0px; margin-bottom: 0px; overflow:hidden; }
 		div.postmeta { width:100%; height:1%; float:left; margin-bottom: 10px; }
 		body.single div#content div.postmeta, body.page div#content div.postmeta { margin-bottom: 30px; }
 			div.postmeta span.author {}
@@ -667,8 +678,9 @@ ul.sf-menu li li li.sfHover ul {
 .sf-menu a {
 	border-left:	0px solid #fff;
 	border-top:		0px solid #CFDEFF;
-	padding: 		.75em 1em;
-	font-weight:bold;
+	padding: 		.75em .75em;
+	/*font-weight:bold;*/
+	font-weight:200;
 	text-decoration:none;
 	color:white;
 }
@@ -683,6 +695,8 @@ ul.sf-menu li li li.sfHover ul {
 .sf-menu li li {
 	background:		#535255;
 	margin-left:	10px;
+	text-align:		left;
+	/*font-size:		14px;*/
 	opacity:1.0;
 	filter:alpha(opacity=100); /* For IE8 and earlier */
 }

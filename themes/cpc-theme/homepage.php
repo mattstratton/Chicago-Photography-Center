@@ -74,10 +74,10 @@ Template Name: Home Page
 					  remove_filter( 'the_excerpt', 'wpautop' );
 					  if( have_posts() ) : 
 							while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-							<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-							<?php the_title(); ?><BR />
-							  <?php the_excerpt(); ?><BR/>
-							  <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">>>LEARN MORE</a>
+							<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
+							<h2><?php the_title(); ?></h2>
+							  <?php the_excerpt(); ?><BR/><BR/>
+							  <a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">>>LEARN MORE</a>							  <br />							  <hr style="height: 2px;"/>
 						  </div>
 						<?php endwhile; ?>
 					  <?php else : ?>
