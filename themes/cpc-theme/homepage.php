@@ -24,16 +24,16 @@ Template Name: Home Page
 		<a href="/feed"><img src = "<?php bloginfo('stylesheet_directory')?>/images/social/rss.png"></a>
 
 	</div>
-	
+	<!-- removing groupon box
 	<div ID="groupon-box">
 		<A href="/groupon">GROUPONS START HERE</a>
-	</div>
+	</div>-->	
 	<div ID="member-box">
 		<A href="/get-involved/become-a-member">BECOME A MEMBER</a>
-	</div>
+	</div><!-- removing free box
 	<div ID="free-box">
 		<a href="/instruction/free">FREE FREE FREE!</a>
-	</div>
+	</div>-->
 </div>
 <div id="content-right">
 	<div id="slider" class="nivoSlider">
